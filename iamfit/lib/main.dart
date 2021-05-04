@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iamfit/Screens/HomeScreen.dart';
+import 'package:iamfit/Screens/PedometerScreen.dart';
 import 'package:iamfit/Screens/SplashScreen.dart';
 import 'package:iamfit/Screens/getUserNameScreen.dart';
 import 'package:iamfit/Themes/Coolors.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.deepPurple,
       ),
-      home:SplashScreen(),
+      home:PedometerScreen(),
     );
   }
 }

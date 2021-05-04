@@ -25,9 +25,12 @@ dependencies:
     sdk: flutter
   google_fonts: ^2.0.0
   hive: ^2.0.4
-  carousel_slider: ^3.0.0
+  carousel_slider: ^4.0.0-nullsafety.0
   youtube_player_flutter: ^8.0.0
   animated_text_kit: ^4.2.1
+  chewie: ^1.0.0
+  pedometer: ^3.0.0
+  jiffy: ^4.1.0
 
 
   # The following adds the Cupertino Icons font to your application.

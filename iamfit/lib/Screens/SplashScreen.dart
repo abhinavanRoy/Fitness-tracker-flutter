@@ -1,10 +1,8 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-
-
-import 'package:google_fonts/google_fonts.dart';
 import 'package:iamfit/Screens/getUserNameScreen.dart';
 import 'package:iamfit/Themes/Coolors.dart';
 
@@ -19,6 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+
     Timer ( Duration(seconds: 3),
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(builder:
